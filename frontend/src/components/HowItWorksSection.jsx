@@ -18,7 +18,7 @@ const steps = [
     number: '03',
     icon: AlertCircle,
     title: 'Threat Detected',
-    description: 'If suspicious, the message gets marked with a red danger dot before you see it.'
+    description: 'If suspicious, the message gets marked with a red dot so you know to avoid it.'
   },
   {
     number: '04',
