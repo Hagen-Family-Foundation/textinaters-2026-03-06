@@ -56,7 +56,7 @@ const FeaturesSection = () => {
           <span className="font-mono text-xs text-cyber-yellow uppercase tracking-widest" data-testid="features-label">
             [ CORE CAPABILITIES ]
           </span>
-          <h2 className="font-heading font-black text-3xl sm:text-4xl lg:text-5xl text-white uppercase tracking-tighter mt-4 mb-6" data-testid="features-title">
+          <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight mt-4 mb-6" data-testid="features-title">
             Your Digital <span className="text-cyber-yellow">Bodyguards</span>
           </h2>
           <p className="font-body text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto" data-testid="features-description">
@@ -105,7 +105,7 @@ const FeatureCard = ({ feature, index }) => {
       </div>
 
       {/* Title */}
-      <h3 className="font-heading font-bold text-xl text-white uppercase tracking-tight mb-3" data-testid={`feature-title-${index}`}>
+      <h3 className="font-heading font-bold text-xl text-white tracking-tight mb-3" data-testid={`feature-title-${index}`}>
         {feature.title}
       </h3>
 

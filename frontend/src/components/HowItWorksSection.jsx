@@ -44,7 +44,7 @@ const HowItWorksSection = () => {
           <span className="font-mono text-xs text-cyber-yellow uppercase tracking-widest" data-testid="how-it-works-label">
             [ THE PROCESS ]
           </span>
-          <h2 className="font-heading font-black text-3xl sm:text-4xl lg:text-5xl text-white uppercase tracking-tighter mt-4 mb-6" data-testid="how-it-works-title">
+          <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight mt-4 mb-6" data-testid="how-it-works-title">
             How <span className="text-cyber-yellow">Textinaters</span> Work
           </h2>
           <p className="font-body text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto" data-testid="how-it-works-description">
@@ -101,7 +101,7 @@ const HowItWorksSection = () => {
 
               {/* Description */}
               <div className="flex-1 text-center lg:text-left">
-                <h3 className="font-heading font-bold text-2xl text-white uppercase tracking-tight mb-4">
+                <h3 className="font-heading font-bold text-2xl text-white tracking-tight mb-4">
                   Clear Visual Warnings
                 </h3>
                 <p className="font-body text-base text-zinc-400 mb-6">
@@ -142,7 +142,7 @@ const StepCard = ({ step, index }) => {
       </div>
 
       {/* Title */}
-      <h3 className="font-heading font-bold text-lg text-white uppercase tracking-tight mb-2" data-testid={`step-title-${index}`}>
+      <h3 className="font-heading font-bold text-lg text-white tracking-tight mb-2" data-testid={`step-title-${index}`}>
         {step.title}
       </h3>
 

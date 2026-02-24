@@ -48,7 +48,7 @@ const ProtectionSection = () => {
           <span className="font-mono text-xs text-cyber-yellow uppercase tracking-widest" data-testid="protection-label">
             [ WHO WE PROTECT ]
           </span>
-          <h2 className="font-heading font-black text-3xl sm:text-4xl lg:text-5xl text-white uppercase tracking-tighter mt-4 mb-6" data-testid="protection-title">
+          <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight mt-4 mb-6" data-testid="protection-title">
             Protecting <span className="text-cyber-yellow">Your Entire Family</span>
           </h2>
           <p className="font-body text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto" data-testid="protection-description">
@@ -96,7 +96,7 @@ const ProtectionCard = ({ target, index }) => {
       </div>
 
       {/* Title */}
-      <h3 className="font-heading font-bold text-xl text-white uppercase tracking-tight mb-1" data-testid={`protection-title-${index}`}>
+      <h3 className="font-heading font-bold text-xl text-white tracking-tight mb-1" data-testid={`protection-title-${index}`}>
         {target.title}
       </h3>
       

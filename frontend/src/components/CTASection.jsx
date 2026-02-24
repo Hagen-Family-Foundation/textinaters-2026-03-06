@@ -27,7 +27,7 @@ const CTASection = () => {
         </div>
 
         {/* Headline */}
-        <h2 className="font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-white uppercase tracking-tighter leading-none mb-6" data-testid="cta-title">
+        <h2 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-tight mb-6" data-testid="cta-title">
           Don't Wait Until<br />
           <span className="text-cyber-yellow">It's Too Late</span>
         </h2>
