@@ -77,14 +77,14 @@ const HeroSection = () => {
             </a>
           </div>
 
-          {/* Floating Message Bubbles - positioned outside content area */}
-          <div className="hidden xl:block absolute top-32 left-4 2xl:left-12 float" style={{ animationDelay: '0s' }}>
+          {/* Floating Message Bubbles - only on 2xl+ screens to avoid text overlap */}
+          <div className="hidden 2xl:block absolute top-32 left-8 float" style={{ animationDelay: '0s' }}>
             <MessageBubble danger text="Your bank account has been compromised! Click here immediately..." />
           </div>
-          <div className="hidden xl:block absolute top-48 right-4 2xl:right-12 float" style={{ animationDelay: '1s' }}>
+          <div className="hidden 2xl:block absolute top-48 right-8 float" style={{ animationDelay: '1s' }}>
             <MessageBubble danger text="You've won $10,000! Claim now before it expires..." />
           </div>
-          <div className="hidden xl:block absolute bottom-48 left-8 2xl:left-16 float" style={{ animationDelay: '2s' }}>
+          <div className="hidden 2xl:block absolute bottom-48 left-12 float" style={{ animationDelay: '2s' }}>
             <MessageBubble safe text="Mom: Dinner at 7pm tonight?" />
           </div>
         </div>
