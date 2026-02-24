@@ -40,7 +40,7 @@ const HeroSection = () => {
 
           {/* Main Headline */}
           <h1 className="hero-title font-heading font-extrabold text-white tracking-tight leading-tight mb-6 fade-in-up-delay-1" data-testid="hero-title">
-            <span className="block">Stop Dangerous</span>
+            <span className="block">See Dangerous</span>
             <span className="block text-cyber-yellow">Text Messages</span>
             <span className="block">Before They Strike</span>
           </h1>
