@@ -53,10 +53,6 @@ const CTASection = () => {
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12" data-testid="trust-indicators">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-500"></div>
-            <span className="font-body text-sm text-zinc-500">No Credit Card Required</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-green-500"></div>
             <span className="font-body text-sm text-zinc-500">Setup in 2 Minutes</span>
           </div>
           <div className="flex items-center gap-2">
