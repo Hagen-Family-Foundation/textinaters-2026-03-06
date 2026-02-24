@@ -81,13 +81,11 @@ const HowItWorksSection = () => {
                     
                     {/* Danger Message */}
                     <div className="bg-zinc-900 p-3 rounded-lg border border-zinc-800 relative">
-                      <div className="absolute -top-1 -right-1 danger-dot"></div>
-                      <p className="font-body text-xs text-zinc-500 mb-1">Unknown</p>
-                      <p className="font-body text-sm text-zinc-300">URGENT: Your account has been...</p>
-                      <div className="mt-2 inline-flex items-center gap-1 px-2 py-1 bg-cyber-danger/20 rounded">
-                        <AlertCircle className="w-3 h-3 text-cyber-danger" />
-                        <span className="font-mono text-xs text-cyber-danger uppercase">Threat Detected</span>
+                      <div className="flex items-center gap-2 mb-1">
+                        <p className="font-body text-xs text-zinc-500">Unknown</p>
+                        <div className="danger-dot" style={{ width: '8px', height: '8px' }}></div>
                       </div>
+                      <p className="font-body text-sm text-zinc-300">URGENT: Your account has been...</p>
                     </div>
 
                     {/* Safe Message */}
