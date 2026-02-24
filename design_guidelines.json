@@ -1,0 +1,116 @@
+{
+  "project_name": "Textinaters",
+  "design_concept": {
+    "theme": "The Digital Fortress",
+    "description": "A high-tech, industrial warning aesthetic that communicates immediate protection. Think 'Cyberpunk Construction Zone' meets 'Elite Security Unit'. The visual language is built on the language of caution: stripes, high-contrast yellow/black, and red alerts.",
+    "emotional_tone": ["Protective", "Urgent", "Industrial", "Futuristic", "Secure"],
+    "visual_style": "Hazard-Tape Brutalism"
+  },
+  "typography": {
+    "headings": {
+      "family": "Barlow Condensed",
+      "weights": ["700", "900"],
+      "usage": "All section titles, hero text. MUST be Uppercase for H1/H2.",
+      "letter_spacing": "tracking-tighter"
+    },
+    "body": {
+      "family": "Rajdhani",
+      "weights": ["500", "600"],
+      "usage": "Paragraphs, features description. slightly square, tech-native feel.",
+      "letter_spacing": "tracking-normal"
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "weights": ["400"],
+      "usage": "Data decorators, button labels, small 'scanning' text."
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "default": "#050505",
+        "paper": "#0A0A0A",
+        "subtle": "#121212"
+      },
+      "primary": {
+        "DEFAULT": "#FFD700",
+        "hover": "#E6C200",
+        "foreground": "#000000"
+      },
+      "secondary": {
+        "DEFAULT": "#2A2A2A",
+        "foreground": "#FFFFFF"
+      },
+      "accent": {
+        "DEFAULT": "#FF3B30",
+        "glow": "rgba(255, 59, 48, 0.5)"
+      },
+      "border": {
+        "DEFAULT": "#333333",
+        "highlight": "#FFD700"
+      }
+    },
+    "gradients": {
+      "hazard_stripe": "repeating-linear-gradient(45deg, #FFD700, #FFD700 10px, #000000 10px, #000000 20px)",
+      "dark_hazard": "repeating-linear-gradient(45deg, #1A1A1A, #1A1A1A 10px, #000000 10px, #000000 20px)"
+    }
+  },
+  "layout_strategy": {
+    "grid_system": "The Tetris Grid",
+    "spacing": "Broad. Use p-12 to p-24 between sections.",
+    "container_style": "Sharp edges only. rounded-none or rounded-sm (max 2px). NO PILL SHAPES.",
+    "border_style": "1px solid border-zinc-800 with active 'tracing beam' effects in Yellow."
+  },
+  "components": {
+    "buttons": {
+      "primary": "Solid #FFD700 background, Black text, bold font. Hover: Hazard stripe overlay.",
+      "secondary": "Transparent background, Yellow border, Yellow text. Hover: bg-yellow-900/20.",
+      "cta_special": "The 'Get Protected' button must pulse with a red shadow/glow to indicate urgency."
+    },
+    "cards": {
+      "style": "Glass-morphism but 'Dirty Glass'. High blur, noise texture overlay, sharp 1px yellow or zinc border.",
+      "hover": "Border color snaps to Yellow. Background gets slightly lighter."
+    },
+    "hero": {
+      "style": "Immersive 3D/Parallax. Foreground: The Tunnel/City. Middle: Scanning Robots. Back: Family Silhouette.",
+      "text_effect": "Glitch text on the main 'DANGER' keywords."
+    }
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.pexels.com/photos/30820142/pexels-photo-30820142.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Futuristic digital data tunnel",
+      "treatment": "Overlay with heavy black gradient (opacity 0.7) to make text pop."
+    },
+    "robot_scanner": {
+      "url": "https://images.pexels.com/photos/8294600/pexels-photo-8294600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Textinater Bot Scanning",
+      "treatment": "Remove background if possible (or use blend-mode: screen/lighten if black background). Place small red dots around it."
+    },
+    "family_protected": {
+      "url": "https://images.unsplash.com/photo-1596249272632-1a55cc4c613b?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Family Silhouette",
+      "treatment": "Place in background layer, behind a 'digital shield' mesh."
+    },
+    "texture_hazard": {
+      "url": "https://images.pexels.com/photos/34247733/pexels-photo-34247733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Industrial Texture",
+      "treatment": "Use as section background with low opacity (0.1) and blend-mode: overlay."
+    },
+    "alert_example": {
+      "url": "https://images.pexels.com/photos/7821762/pexels-photo-7821762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Phone displaying scam alert"
+    }
+  },
+  "assets_instructions": {
+    "icons": "Use 'Lucide-React' with 'stiff' tech icons (Shield, Lock, Scan, AlertTriangle, Zap).",
+    "animations": "Use framer-motion. Key animation: 'Scanning Line' (a red line moving up and down over text)."
+  },
+  "universal_guidelines": {
+    "transitions": "Use specific transitions (e.g., transition-colors duration-200). DO NOT use transition-all.",
+    "alignment": "Left align text generally. Center align only for massive hero headlines.",
+    "glassmorphism": "Use backdrop-blur-xl with a tint of zinc-900. Add a 1px white/10 border.",
+    "interactions": "All interactive elements must have a :hover and :focus state. Focus ring should be Yellow."
+  },
+  "instructions_to_main_agent": "1. Install fonts: Barlow Condensed and Rajdhani from Google Fonts. 2. Set up Tailwind colors extending the theme. 3. Build the 'HazardStripe' utility class immediately. 4. Implement the CTA redirect logic to NoMoreScamCalls.com."
+}
