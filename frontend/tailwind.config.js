@@ -61,8 +61,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        heading: ['Barlow Condensed', 'sans-serif'],
-        body: ['Rajdhani', 'sans-serif'],
+        heading: ['Inter', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },
       borderRadius: {

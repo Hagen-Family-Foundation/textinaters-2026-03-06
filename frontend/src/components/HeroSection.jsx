@@ -39,15 +39,15 @@ const HeroSection = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="hero-title font-heading font-black text-white uppercase tracking-tighter leading-none mb-6 fade-in-up-delay-1" data-testid="hero-title">
+          <h1 className="hero-title font-heading font-extrabold text-white tracking-tight leading-tight mb-6 fade-in-up-delay-1" data-testid="hero-title">
             <span className="block">Stop Dangerous</span>
-            <span className="block text-cyber-yellow glitch-text">Text Messages</span>
+            <span className="block text-cyber-yellow">Text Messages</span>
             <span className="block">Before They Strike</span>
           </h1>
 
           {/* Tagline */}
-          <p className="font-heading text-xl sm:text-2xl text-cyber-danger font-bold uppercase tracking-wide mb-6 fade-in-up-delay-2" data-testid="hero-tagline">
-            <AlertTriangle className="inline w-6 h-6 mr-2" />
+          <p className="font-heading text-lg sm:text-xl text-cyber-danger font-semibold tracking-wide mb-6 fade-in-up-delay-2" data-testid="hero-tagline">
+            <AlertTriangle className="inline w-5 h-5 mr-2" />
             Danger – Open At Own Risk!
           </p>
 
