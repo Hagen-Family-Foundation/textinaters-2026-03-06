@@ -77,6 +77,20 @@ const HeroSection = () => {
             </a>
           </div>
 
+          {/* Price & Deal CTA */}
+          <div className="mt-8 fade-in-up-delay-4" data-testid="hero-price-section">
+            <p className="font-body text-zinc-400 mb-3">
+              Only <span className="text-cyber-yellow font-bold text-2xl">$12.99</span>
+            </p>
+            <button
+              onClick={handleCTAClick}
+              className="cta-secondary px-6 py-3 font-heading text-sm uppercase tracking-wide hover:bg-cyber-yellow hover:text-black transition-colors duration-200"
+              data-testid="hero-cta-deal"
+            >
+              Get Protected Now for Less
+            </button>
+          </div>
+
           {/* Floating Message Bubbles - hidden to improve readability */}
           {/* Can be re-enabled on very wide screens if needed */}
         </div>
