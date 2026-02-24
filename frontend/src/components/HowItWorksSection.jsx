@@ -80,7 +80,7 @@ const HowItWorksSection = () => {
                     </div>
                     
                     {/* Danger Message */}
-                    <div className="bg-zinc-900 p-3 rounded-lg border border-cyber-danger relative">
+                    <div className="bg-zinc-900 p-3 rounded-lg border border-zinc-800 relative">
                       <div className="absolute -top-1 -right-1 danger-dot"></div>
                       <p className="font-body text-xs text-zinc-500 mb-1">Unknown</p>
                       <p className="font-body text-sm text-zinc-300">URGENT: Your account has been...</p>
