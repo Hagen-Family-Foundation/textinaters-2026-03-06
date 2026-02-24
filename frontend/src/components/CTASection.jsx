@@ -59,6 +59,10 @@ const CTASection = () => {
             <div className="w-2 h-2 rounded-full bg-green-500"></div>
             <span className="font-body text-sm text-zinc-500">Cancel Anytime</span>
           </div>
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 rounded-full bg-green-500"></div>
+            <span className="font-body text-sm text-zinc-500">Works on phone, laptop, tablet and desktop</span>
+          </div>
         </div>
       </div>
     </section>
