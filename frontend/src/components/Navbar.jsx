@@ -14,7 +14,7 @@ const Navbar = () => {
   }, []);
 
   const handleCTAClick = () => {
-    window.open('https://NoMoreScamCalls.com', '_blank', 'noopener,noreferrer');
+    window.open('https://nomorescamcalls.com/#comparison', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -62,7 +62,7 @@ const Navbar = () => {
               className="cta-primary px-5 py-2 font-heading text-sm uppercase tracking-wide"
               data-testid="nav-cta-button"
             >
-              Get Protected Now
+              GET ALL 4 PROTECTIONS
             </button>
           </div>
 
@@ -105,7 +105,7 @@ const Navbar = () => {
                 onClick={handleCTAClick}
                 className="w-full cta-primary px-5 py-3 font-heading text-sm uppercase tracking-wide"
               >
-                Get Protected Now
+                GET ALL 4 PROTECTIONS
               </button>
             </div>
           </div>

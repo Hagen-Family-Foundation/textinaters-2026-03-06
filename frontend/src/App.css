@@ -39,19 +39,20 @@
 
 /* CTA Button Special Styles */
 .cta-primary {
-  background-color: #FFD700;
-  color: #000000;
+  background-color: #FFEA00;
+  color: #1E3A8A;
   font-weight: 700;
+  font-size: 20px;
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .cta-primary:hover {
-  background-color: #E6C200;
+  background-color: #E6D400;
   transform: scale(1.02);
 }
 
 .cta-primary:focus {
-  outline: 2px solid #FFD700;
+  outline: 2px solid #FFEA00;
   outline-offset: 2px;
 }
 

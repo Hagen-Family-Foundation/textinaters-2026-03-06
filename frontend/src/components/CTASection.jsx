@@ -3,7 +3,7 @@ import { Shield, ArrowRight, AlertTriangle } from 'lucide-react';
 
 const CTASection = () => {
   const handleCTAClick = () => {
-    window.open('https://NoMoreScamCalls.com', '_blank', 'noopener,noreferrer');
+    window.open('https://nomorescamcalls.com/#comparison', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -41,11 +41,11 @@ const CTASection = () => {
         {/* CTA Button */}
         <button
           onClick={handleCTAClick}
-          className="cta-primary pulse-danger px-10 py-5 font-heading text-lg sm:text-xl uppercase tracking-wide inline-flex items-center gap-3 group"
+          className="cta-primary pulse-danger px-10 py-5 font-heading uppercase tracking-wide inline-flex items-center gap-3 group"
           data-testid="cta-main-button"
         >
           <Shield className="w-6 h-6" />
-          Get Protected Now
+          GET ALL 4 PROTECTIONS
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
         </button>
 

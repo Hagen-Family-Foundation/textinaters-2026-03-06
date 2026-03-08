@@ -3,7 +3,7 @@ import { Shield, AlertTriangle, Scan } from 'lucide-react';
 
 const HeroSection = () => {
   const handleCTAClick = () => {
-    window.open('https://NoMoreScamCalls.com', '_blank', 'noopener,noreferrer');
+    window.open('https://nomorescamcalls.com/#comparison', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -61,11 +61,11 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 fade-in-up-delay-4" data-testid="hero-cta-group">
             <button
               onClick={handleCTAClick}
-              className="cta-primary pulse-danger px-8 py-4 font-heading text-base sm:text-lg uppercase tracking-wide flex items-center gap-2"
+              className="cta-primary pulse-danger px-8 py-4 font-heading uppercase tracking-wide flex items-center gap-2"
               data-testid="hero-cta-primary"
             >
               <Shield className="w-5 h-5" />
-              Get Protected Now
+              GET ALL 4 PROTECTIONS
             </button>
             <a
               href="#how-it-works"
@@ -84,10 +84,10 @@ const HeroSection = () => {
             </p>
             <button
               onClick={handleCTAClick}
-              className="cta-secondary px-6 py-3 font-heading text-sm uppercase tracking-wide hover:bg-cyber-yellow hover:text-black transition-colors duration-200"
+              className="cta-primary px-6 py-3 font-heading uppercase tracking-wide"
               data-testid="hero-cta-deal"
             >
-              Get Protected Now for Less
+              GET ALL 4 PROTECTIONS
             </button>
           </div>
 
