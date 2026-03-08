@@ -68,6 +68,16 @@
   background-color: rgba(255, 215, 0, 0.1);
 }
 
+/* Four Pillars Label */
+.four-pillars {
+  color: #FFEA00;
+  font-size: 24px;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(254, 234, 0, 0.5);
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
 /* Noise Texture Overlay */
 .noise-overlay {
   position: fixed;

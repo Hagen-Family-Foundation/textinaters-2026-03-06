@@ -64,6 +64,7 @@ const Navbar = () => {
             >
               GET ALL 4 PROTECTIONS
             </button>
+            <span className="four-pillars" style={{ fontSize: '14px' }}>PHONE • TEXT • EMAIL • WEB</span>
           </div>
 
           {/* Mobile Menu Button */}
@@ -107,6 +108,7 @@ const Navbar = () => {
               >
                 GET ALL 4 PROTECTIONS
               </button>
+              <p className="four-pillars mt-2" style={{ fontSize: '16px' }}>PHONE • TEXT • EMAIL • WEB</p>
             </div>
           </div>
         )}

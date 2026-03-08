@@ -76,6 +76,7 @@ const HeroSection = () => {
               See How It Works
             </a>
           </div>
+          <p className="four-pillars mt-4 fade-in-up-delay-4">PHONE • TEXT • EMAIL • WEB</p>
 
           {/* Price & Deal CTA */}
           <div className="mt-8 fade-in-up-delay-4" data-testid="hero-price-section">
@@ -89,6 +90,7 @@ const HeroSection = () => {
             >
               GET ALL 4 PROTECTIONS
             </button>
+            <p className="four-pillars mt-3">PHONE • TEXT • EMAIL • WEB</p>
           </div>
 
           {/* Floating Message Bubbles - hidden to improve readability */}

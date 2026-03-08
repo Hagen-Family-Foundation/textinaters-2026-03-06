@@ -48,6 +48,7 @@ const CTASection = () => {
           GET ALL 4 PROTECTIONS
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
         </button>
+        <p className="four-pillars mt-4">PHONE • TEXT • EMAIL • WEB</p>
 
         {/* Trust Indicators */}
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12" data-testid="trust-indicators">
