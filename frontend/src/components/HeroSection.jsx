@@ -76,8 +76,10 @@ const HeroSection = () => {
               See How It Works
             </a>
           </div>
-          <p className="four-pillars mt-4 fade-in-up-delay-4">PHONE • TEXT • EMAIL • WEB</p>
-          <p className="mt-3 font-bold text-2xl fade-in-up-delay-4" style={{ color: '#FFEA00' }}>$12.99</p>
+          <div className="inline-flex flex-col items-center mt-4 px-8 py-4 border border-[#FFD700] fade-in-up-delay-4">
+            <p className="four-pillars">PHONE • TEXT • EMAIL • WEB</p>
+            <p className="mt-2 font-bold text-2xl" style={{ color: '#FFEA00' }}>$12.99</p>
+          </div>
 
           {/* Floating Message Bubbles - hidden to improve readability */}
           {/* Can be re-enabled on very wide screens if needed */}
