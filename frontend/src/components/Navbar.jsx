@@ -57,14 +57,16 @@ const Navbar = () => {
             >
               Protection
             </a>
-            <button
-              onClick={handleCTAClick}
-              className="cta-primary px-5 py-2 font-heading text-sm uppercase tracking-wide"
+            <a
+              href="https://nomorescamcalls.com/#comparison"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="four-pillars"
+              style={{ fontSize: '14px' }}
               data-testid="nav-cta-button"
             >
-              GET ALL 4 PROTECTIONS
-            </button>
-            <span className="four-pillars" style={{ fontSize: '14px' }}>PHONE • TEXT • EMAIL • WEB</span>
+              PHONE • TEXT • EMAIL • WEB
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -102,13 +104,15 @@ const Navbar = () => {
               >
                 Protection
               </a>
-              <button
-                onClick={handleCTAClick}
-                className="w-full cta-primary px-5 py-3 font-heading text-sm uppercase tracking-wide"
+              <a
+                href="https://nomorescamcalls.com/#comparison"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block four-pillars mt-2"
+                style={{ fontSize: '16px' }}
               >
-                GET ALL 4 PROTECTIONS
-              </button>
-              <p className="four-pillars mt-2" style={{ fontSize: '16px' }}>PHONE • TEXT • EMAIL • WEB</p>
+                PHONE • TEXT • EMAIL • WEB
+              </a>
             </div>
           </div>
         )}
