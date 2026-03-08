@@ -25,6 +25,12 @@ const NMSCTeaser = () => {
         >
           ✅ Red dot warnings &nbsp;&nbsp; ✅ Phone + Text + Email + Web included
         </p>
+        <p
+          className="font-body text-sm sm:text-base mt-1"
+          style={{ color: '#1E3A8A' }}
+        >
+          ✅ Works on ALL devices/carriers &nbsp;&nbsp; ✅ Family covered anywhere in US - one plan
+        </p>
       </div>
     </div>
   );
